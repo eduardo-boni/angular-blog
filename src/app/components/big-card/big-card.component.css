@@ -1,5 +1,4 @@
 .container__big__card {
-    border: solid #fff 2px;
     margin-left: 25px;
     margin-right: 25px;
     width: 400px;
@@ -16,8 +15,11 @@
     font-size: 20px;
 }
 
-.big__card__description > p {
+.big__card__description {
     margin-top: 10px;
+}
+
+.big__card__description > p > a {
     color: grey;
 }
 
